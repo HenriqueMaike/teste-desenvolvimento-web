@@ -1,0 +1,32 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+//Schema do ORM para criacao da tebela 
+//para executar =>  yarn prisma migrate dev --name init
+
+model Pokemon {
+  id Int @id @default(autoincrement())
+  name String
+  pokedexNumber Int
+  imgName Int
+  generation Int
+  evolutionStage Int
+  Type1 String
+  Type2 String?
+  atc Int
+  def Int
+  sta Int
+  created_at DateTime? @default(now())
+  update_at DateTime? @default(now())
+
+  @@map("pokemons")
+}

@@ -1,0 +1,12 @@
+.input{
+    height: 10px;
+    border: 0;
+    border-radius: 0.5rem;
+    color: #000;
+    padding: 1rem;
+    border: 1px solid #524d4d;
+}
+
+.imput::placeholder{
+    color: rgba(255, 255, 255, 0.8);
+}
