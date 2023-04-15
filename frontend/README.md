@@ -2,6 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Comando para instalação dos paacotes
+
+```bash
+npm install
+```
+
 First, run the development server:
 
 ```bash
@@ -11,6 +17,15 @@ yarn dev
 # or
 pnpm dev
 ```
+# Campos de filtro por pokemon case sensitive
+Correção será aplicada no backend a atualizado aqui no repositorio em breve
+
+![1](https://user-images.githubusercontent.com/50559406/232187228-08361e56-0d61-4705-b9c9-54f0488ff22d.png)
+![2](https://user-images.githubusercontent.com/50559406/232187315-849656e9-a8d8-463f-a984-0e8fb2e20776.png)
+![3](https://user-images.githubusercontent.com/50559406/232187322-f47ae8b3-d4ca-4ea1-930e-0050b5eb32e9.png)
+![4](https://user-images.githubusercontent.com/50559406/232187332-e998a5b2-fb3f-4a40-8a48-2511d628d9b3.png)
+![5](https://user-images.githubusercontent.com/50559406/232187343-93866616-eebf-4fe0-a3d2-9d931515ef3e.png)
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
