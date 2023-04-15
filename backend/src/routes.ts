@@ -3,7 +3,7 @@ import { BuscarPokemonController } from "./controllers/pokemon/BuscarPokemonCont
 import { CreatePokemonController } from "./controllers/pokemon/CreatePokemonController";
 import { DeletePokemonController } from "./controllers/pokemon/DeletePokemonController";
 import { ListPokemonController } from "./controllers/pokemon/ListPokemonController";
-import { UpdatePokemonController } from "./controllers/pokemon/UpdatePokemonCOntroller";
+import { UpdatePokemonController } from "./controllers/pokemon/UpdatePokemonController";
 
 const router = Router();
 
