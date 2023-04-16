@@ -1,9 +1,8 @@
 # teste-desenvolvimento-web
 Teste para vaga dev desenvolvimento web
 
-### DEPLOY PARA TESTE: [CHICK HERE](https://clinquant-palmier-18f423.netlify.app/) ou
-https://clinquant-palmier-18f423.netlify.app/
-
+### DEPLOY PARA TESTE: [CHICK HERE](https://clinquant-palmier-18f423.netlify.app/)
+Requisição pode atrasar por causa da hospedagem do backend no servidor gratuito, que entra em pausa após 15 minutos de inatividade.
 
 ### API
 https://pokemon-gugf.onrender.com/pokemon
